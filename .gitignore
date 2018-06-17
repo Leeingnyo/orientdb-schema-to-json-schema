@@ -1,0 +1,8 @@
+# node
+node_modules/
+
+# config file
+orientjs.opts
+
+# output files
+schema/
