@@ -136,6 +136,8 @@ function convertClass(cls) {
   }
   if (cls.superClasses) {
     schema.allOf = cls.superClasses.map(superClass => convertRef(superClass));
+    schema.allOf.push({ properties: schema.properties });
+    delete schema.properties;
   }
 
   return schema;
