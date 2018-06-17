@@ -9,8 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gremlin": "^2.7.0",
-    "orientjs": "^2.2.10",
-    "xmldom": "^0.1.27"
+    "orientjs": "^2.2.10"
   }
 }

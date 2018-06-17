@@ -21,9 +21,15 @@ It generates json schema files to directory `schema`.
 It has many limitations.
 
 * Some porperty types are not supported
+  * Transient
+  * Custom
+  * LinkBag
+  * Any
+* Fix orientjs bug (?)
+  * add `this.linkedType = config.linkedType || null;` to `./node_modules/orientjs/lib/db/class/property.js:42`
 
 See the code, search FIXME for other limitations.
 
 ## Contributing
 
-Thanks.
+Thanks. Welcome.
