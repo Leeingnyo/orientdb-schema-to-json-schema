@@ -52,6 +52,9 @@ const TYPEMAP = {
 };
 const PREFIX = process.argv[2] || './schema/';
 const POSTFIX = '.schema.json';
+// TODO optionize POSTFIX
+// prettify output JSON option
+// console output option
 
 const classList = await getUserClasses();
 
